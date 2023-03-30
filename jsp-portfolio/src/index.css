@@ -6,10 +6,22 @@ html {
 body {
   margin: 0;
   font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #444;
-  background: #022c43;
-  overflow: hidden;
+  /* color: #444; */
+  /* background: #022c43; */
+  /* overflow: hidden; */
+  /* display: block; */
+  /* width: 600vw;
+  height: 100vh; */
   display: block;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../src/assets/images/rockies-range.png');
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

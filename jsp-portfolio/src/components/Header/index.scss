@@ -1,11 +1,11 @@
 .nav-bar {
     background: #181818;
     width: 100%;
-    height: 60px;
-    position: absolute;
+    height: 90px;
+    position: relative;
 
 
-}
+
 
 
 nav {
@@ -22,5 +22,63 @@ nav {
         margin: 21px;
         font-size: 30px;
         cursor: grab;
+        
+        i {
+            transition: all 0.3s ease-out;
+        }
+        &:hover {
+            color: #ffd700;
+
+            svg {
+                opacity: 0;
+
+            }
+
+            &:after {
+                opacity: 1;
+            }
+        }
+
+        &:after {
+            content: '';
+            font-size: 15px;
+            position: absolute;
+            display: flex;
+            opacity: 0;
+            transition: all 0.3s ease-out;
+        }
+        &:first-child {
+            &::after {
+                content: 'HOME';
+            }
+        }
+
     }
+    a.about-link {
+        &::after {
+            content: 'ABOUT';
+        }
+    }
+    a.contact-link {
+        &::after {
+            content: 'CONTACT';
+        }
+    }
+    a.projects-link {
+        &::after {
+            content: 'PROJECTS';
+        }
+    }
+    a.resume-link {
+        &::after {
+            content: 'RESUME';
+        }
+    }
+
+    a.active {
+        svg {
+            color: #ffd700;
+        }
+    }
+}
 }
