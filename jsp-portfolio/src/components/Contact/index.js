@@ -1,6 +1,7 @@
 import './index.scss'
 import React, {useState} from 'react'
 import Header from '../Header'
+import Footer from '../Footer';
 
 
 function Contact  () {
@@ -25,7 +26,7 @@ const handleSumbit = async (e) => {
     };
 
     try {
-      const response = await fetch('/contact', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -56,7 +57,7 @@ return (
     
     <Header />
     <br></br>
-
+  <h1 className='contact-header'>Contact</h1>
 
     <div>
     <form className="contact-form" onSubmit={handleSumbit} >
@@ -91,6 +92,8 @@ return (
       </button>
     </form>
     </div>
+    <br></br>
+    <Footer />
     </>
   );
 }

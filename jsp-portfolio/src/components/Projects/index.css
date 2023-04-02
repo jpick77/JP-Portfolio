@@ -1,0 +1,17 @@
+.project {
+    font-size: 6em;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+img.pic {
+    border-radius: 10px;
+    margin: 30px 100px ;
+    /* padding: 15px 20px; */
+    height: 3em;
+    width: 7em;
+    /* float: left; */
+    margin: 50px;
+    
+}
+

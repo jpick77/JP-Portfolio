@@ -6,6 +6,7 @@ html {
 body {
   margin: 0;
   font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  
   /* color: #444; */
   /* background: #022c43; */
   /* overflow: hidden; */
@@ -17,7 +18,7 @@ body {
   align-items: center;
   text-align: center;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../src/assets/images/rockies-range.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../src/components/images/rockies-range.png');
   background-size: auto;
   background-position: center center;
   background-repeat: no-repeat;

@@ -2,7 +2,7 @@ import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import About from './components/About';
-import Contact from './components/Contact'
+import Contact from './components/contact/index';
 import Project from './components/Projects';
 import Resume from './components/Resume';
 

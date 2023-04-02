@@ -1,5 +1,8 @@
-import './index.scss'
+import './index.css'
 import Header from '../Header'
+import Footer from '../Footer'
+import Profile from '../images/profile.png'
+
 
 
 const About = () => {
@@ -8,15 +11,16 @@ const About = () => {
     <>
     <Header /> 
     <br></br>
+    
     <div className="text-home">
     
-        <h1>Hi, I'm Jacob, web developer</h1>
+        <h1>About Me</h1>
+
+        <img className="about-pic" src={Profile} alt=''></img>
+        
 
     
     
-
-    
-    <h3>About Me</h3>
     <p>
                🏆 My name is Jacob Pickron, I am the oldest of three. I was born in Houston
                 and raised in San Antonio, Texas. I currently live in beautiful Breckenridge,
@@ -26,6 +30,8 @@ const About = () => {
                 and it has allowed my creative side to shine. I hope you can see that in my projects.
             </p>
     </div>
+    <br></br>
+        <Footer />
     </>
     )
 }
