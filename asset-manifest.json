@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/JP-Portfolio/static/css/main.72669253.css",
+    "main.js": "/JP-Portfolio/static/js/main.6645a3eb.js",
+    "static/js/787.f2051704.chunk.js": "/JP-Portfolio/static/js/787.f2051704.chunk.js",
+    "static/media/rockies-range.png": "/JP-Portfolio/static/media/rockies-range.df46707a23967020b0f6.png",
+    "static/media/dog.png": "/JP-Portfolio/static/media/dog.530f5864b76345138c68.png",
+    "static/media/weather.png": "/JP-Portfolio/static/media/weather.2b10e60a9968d5336c7e.png",
+    "static/media/work.png": "/JP-Portfolio/static/media/work.4ed62abf7d6c1db941ce.png",
+    "static/media/password.png": "/JP-Portfolio/static/media/password.19d44fb3debd9c84a432.png",
+    "static/media/quiz.png": "/JP-Portfolio/static/media/quiz.7f65cad29debc69bbb38.png",
+    "static/media/music.png": "/JP-Portfolio/static/media/music.a16fce9976b6fcd19c72.png",
+    "static/media/profile.png": "/JP-Portfolio/static/media/profile.d8c345bdd599d0a17826.png",
+    "static/media/resume.png": "/JP-Portfolio/static/media/resume.629d9e452584513fcba6.png",
+    "index.html": "/JP-Portfolio/index.html",
+    "static/media/CoolveticaRg-Regular.woff2": "/JP-Portfolio/static/media/CoolveticaRg-Regular.31d6cfe0d16ae931b73c.woff2",
+    "static/media/LaBelleAurore.woff2": "/JP-Portfolio/static/media/LaBelleAurore.31d6cfe0d16ae931b73c.woff2",
+    "static/media/helvetica-neu.ttf": "/JP-Portfolio/static/media/helvetica-neu.31d6cfe0d16ae931b73c.ttf",
+    "main.72669253.css.map": "/JP-Portfolio/static/css/main.72669253.css.map",
+    "main.6645a3eb.js.map": "/JP-Portfolio/static/js/main.6645a3eb.js.map",
+    "787.f2051704.chunk.js.map": "/JP-Portfolio/static/js/787.f2051704.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72669253.css",
+    "static/js/main.6645a3eb.js"
+  ]
+}
