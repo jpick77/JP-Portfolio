@@ -37,3 +37,8 @@
   [jpick77](https://github.com/jpick77)
 
   jpickron30@gmail.com
+
+  ## Screenshots
+ ![Alt text](./src/components/images/jp.png "jp.png")
+ ![Alt text](./src/components/images/jp1.png "jp1.png")
+ ![Alt text](./src/components/images/jp2.png "jp2.png") 
