@@ -1,6 +1,6 @@
 import './App.scss';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import About from './components/About';
 import Contact from './components/contact/index';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       
-      <Router>
+      
     <Routes>
       <Route path="/" element={<Layout />} />
       <Route path="/about" element={<About />} />
@@ -19,7 +19,7 @@ function App() {
       <Route path="/projects" element={<Project />} />
       <Route path="/resume" element={<Resume />} />
     </Routes>
-    </Router>
+    
     </div>
   )
 }
